@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blush-soft: #fce7eb;
+  --blush-light: #fdf2f4;
+  --blush-border: #f4a9b9;
+  --text-soft: #7a1e3b;
+  --text-muted: #ac2447;
+}
+
+body {
+  background: linear-gradient(165deg, #fffbfa 0%, #fdf2f4 40%, #fce7eb 100%);
+  min-height: 100vh;
+}
