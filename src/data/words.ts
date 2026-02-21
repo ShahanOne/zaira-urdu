@@ -207,3 +207,15 @@ export function getWordsForToday(count: number = 5): UrduWord[] {
   const index = getDayIndex();
   return Array.from({ length: count }, (_, i) => WORDS[(index + i) % WORDS.length]);
 }
+
+/** Day of year (1–366) for any date. Use on client for fail-proof “today”. */
+export function getDayOfYear(date: Date): number {
+  const start = new Date(date.getFullYear(), 0, 0);
+  return Math.floor((date.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
+}
+
+/** Get words for a given day-of-year (client-safe, no server time). */
+export function getWordsForDayOfYear(dayOfYear: number, count: number = 5): UrduWord[] {
+  const index = (dayOfYear * 5) % WORDS.length;
+  return Array.from({ length: count }, (_, i) => WORDS[(index + i) % WORDS.length]);
+}
