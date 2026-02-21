@@ -15,8 +15,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Zaira's Urdu Words",
-  description: "Three beautiful Urdu words every day, for Zaira.",
+  title: "For Zaira",
+  description: "Five beautiful Urdu words every day, for Zaira.",
 };
 
 export default function RootLayout({

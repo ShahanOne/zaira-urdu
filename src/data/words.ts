@@ -5,7 +5,7 @@ export interface UrduWord {
   example?: string;
 }
 
-// 3 words per day – we cycle by day-of-year so Zaira gets the same set each calendar day
+// 5 words per day – we cycle by day-of-year so Zaira gets the same set each calendar day
 export const WORDS: UrduWord[] = [
   { urdu: "عشق", romanization: "ishq", meaning: "passionate love, devotion" },
   { urdu: "عبیر", romanization: "abeer", meaning: "fragrance (literary)" },

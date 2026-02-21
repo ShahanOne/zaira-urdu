@@ -1,6 +1,6 @@
-# Zaira's Urdu Words
+# For Zaira
 
-A gentle web app that shows **3 new Urdu words** (with meanings) every day. Built for Zaira, with a clean light pink vibe and beautiful typography.
+A gentle web app that shows **5 new Urdu words** (with meanings) every day. Built for Zaira, with a clean light pink vibe and beautiful typography.
 
 ## Stack
 
@@ -19,5 +19,5 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## How it works
 
-- The same 3 words are shown for the whole day, then rotate to the next set.
+- The same 5 words are shown for the whole day, then rotate to the next set.
 - Words are chosen from a curated list; the index is based on the day of the year so it’s consistent and repeatable.
